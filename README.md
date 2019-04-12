@@ -8,29 +8,29 @@ Este projeto tem como objetivo complementar os mecanismos de controlo de acesso 
 
   - Instalar package do python:
 ```
-sudo apt-get install python3-dev;
+$ sudo apt-get install python3-dev;
 ```
   - Pôr o servidor à escuta na porta 12345:
     - Na diretoria validationServer:
 ```
-npm i 
-npm start
+$ npm i 
+$ npm start
 ```
   - Compilar o sistema de ficheiros:
   
 ```
-gcc -Wall passthrough.c `pkg-config fuse3 -cflags -libs python3` -o passthrough
+$ gcc -Wall passthrough.c `pkg-config fuse3 -cflags -libs python3` -o passthrough
 ```
 
   - Executar o sistema de ficheiros:
 ```
-  mkdir FileSystem
-  ./passthrough /FileSystem
+  $ mkdir FileSystem
+  $ ./passthrough /FileSystem
 ```
 - Testar o programa:  
   - Por exemplo, 
 ```
-cat FileSystem/etc/passwd
+$ cat FileSystem/etc/passwd
 ```
   
 

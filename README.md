@@ -13,6 +13,7 @@ sudo apt-get install python3-dev;
   - Pôr o servidor à escuta na porta 12345:
     - Na diretoria validationServer:
 ```
+npm i 
 npm start
 ```
   - Compilar o sistema de ficheiros:

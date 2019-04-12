@@ -1,4 +1,4 @@
-# Autorização de Oreações ao nível do Sistema de Ficheiros
+# Autorização de Operações ao nível do Sistema de Ficheiros
 
 Projeto Segurança de Sistemas Informáticos 2018/2019, Mestrado Integrado em Engenharia Informática, Universidade do Minho, Braga - Portugal
 
